@@ -1,0 +1,36 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+
+body {
+  background-color: $background-color;
+}
+
+.nav-link {
+  font-family: $font-family;
+  font-size: $nav-font-size;
+}
+
+.main-page {
+  text-align: center;
+  color: $main-page-color;
+}
+
+.nav-link {
+  color: $nav-color;
+}
+
+.nav-link:hover {
+  color: $nav-color-hover;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+.main-page {
+  margin-top: $main-page-margin-top;
+}
